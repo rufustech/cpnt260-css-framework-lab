@@ -90,10 +90,15 @@
 
 .card-hover:hover {
   transform: scale(1.05);
-  background-color: rgb(101, 90, 253);
+  background-color: rgb(144, 144, 151);
   color: white;
 }
 
 .card-price:hover {
   color: white;
+}
+
+.card-price button:hover {
+  background-color: white !important; /* Changes the background color to white on hover */
+  color: black !important; /* Changes the text color to black on hover */
 }
